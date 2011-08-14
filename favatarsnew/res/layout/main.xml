@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/interior" 
+	android:orientation="vertical" 
+	android:layout_gravity="center_horizontal" 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent">
+    android:padding="20dip"
+     android:id="@drawable/bgnd">
+    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/TableLayout1" >
+        <HorizontalScrollView android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/HorizontalScrollView1">
+            <TableRow android:id="@+id/TableRow1" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+                <ImageView android:src="@drawable/f_000_000_00_000" android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="image01"></ImageView>
+                <ImageView android:src="@drawable/m_000_000_00_000" android:id="@+id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="image02"></ImageView>
+                <ImageView android:src="@drawable/f_001_001_01_001" android:id="@+id/imageView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="image03"></ImageView>
+                <ImageView android:src="@drawable/m_001_001_01_001" android:id="@+id/imageView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="image04"></ImageView>
+                <ImageView android:src="@drawable/f_002_002_02_002" android:id="@+id/imageView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="image05"></ImageView>
+                <ImageView android:src="@drawable/m_002_002_02_002" android:id="@+id/imageView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="image06"></ImageView>
+                <ImageView android:src="@drawable/f_100_100_00_100" android:id="@+id/imageView7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="image07"></ImageView>
+                <ImageView android:src="@drawable/m_100_100_00_100" android:id="@+id/imageView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="image08"></ImageView>
+                <ImageView android:src="@drawable/f_101_101_01_101" android:id="@+id/imageView9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="image09"></ImageView>
+                <ImageView android:src="@drawable/m_101_101_01_101" android:id="@+id/imageView10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="image10"></ImageView>
+                <ImageView android:src="@drawable/f_102_102_02_102" android:id="@+id/imageView11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="image11"></ImageView>
+                <ImageView android:src="@drawable/m_102_102_02_102" android:id="@+id/imageView12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="image12"></ImageView>
+            </TableRow>
+        </HorizontalScrollView>
+    </TableLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView1" android:text="&lt;- SELECT YOUR FAVATAR-&gt;"></TextView>
+
+</LinearLayout>
