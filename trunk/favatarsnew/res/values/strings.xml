@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="planet_prompt">Choose a disease you suffer from</string>
+    <string name="app_name">Favatars</string>
+    <string-array name="planets_array">
+        <item>None</item>
+        <item>Diabetes</item>
+        <item>Anemia</item>
+        <item>Pressure</item>
+        <item>Osteoporosis</item>
+        <item>Anorexia</item>
+        <item>Bulimia</item>
+        <item>Cholesterol </item>
+        <item>Hypertension</item>
+    </string-array>
+    <string name="feed_me">Feed Me</string>
+    <string name="numerical_100">100</string>
+    <string name="share">Share Favatars!</string>
+</resources>
+
+
+    

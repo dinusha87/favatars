@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:background="@drawable/bgnd">
+    <TableLayout android:layout_height="wrap_content" android:id="@+id/tableLayout1" android:layout_gravity="center_horizontal" android:layout_width="750px">
+        <TableRow android:id="@+id/tableRow10" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:layout_height="20px"></View>
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:id="@+id/tableRow3" android:layout_height="wrap_content">
+        <View android:layout_height="10px"></View>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TableLayout android:id="@+id/tableLayout2" android:layout_height="wrap_content" android:padding="25px" android:background="@drawable/my_shape_file" android:layout_width="730px">
+                <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fav_logo"></ImageView>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_span="2" android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#3c8dc5" android:text="Sign-Up" android:layout_gravity="center"></TextView>
+                    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom|right" android:layout_span="5" android:id="@+id/sinBTN" android:padding="7dp" android:textColor="#000000" android:text="   Back   " android:onClick="backFromReg"></Button>
+                    <View android:layout_height="7px" android:layout_width="20px"></View>
+                </TableRow>
+                <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <View android:layout_height="10px"></View>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:id="@+id/TableRow01" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TextView03" android:textAppearance="?android:attr/textAppearanceMedium" android:text="First Name" android:textSize="22px" android:textColor="#000000"></TextView>
+                    <TextView android:textColor="#6fb7e9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TextView01" android:textAppearance="?android:attr/textAppearanceMedium" android:text=" : "></TextView>
+                    <EditText android:width="150px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:id="@+id/fNameTXT" android:paddingLeft="5px" android:paddingRight="5px" android:textColor="#000000"></EditText>
+                    <View android:layout_height="7px" android:layout_width="20px"></View>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TextView09" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Last Name" android:textSize="22px" android:textColor="#000000"></TextView>
+                    <TextView android:textColor="#6fb7e9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TextView08" android:textAppearance="?android:attr/textAppearanceMedium" android:text=" : "></TextView>
+                    <EditText android:layout_height="wrap_content" android:singleLine="true" android:layout_width="25px" android:width="150px" android:id="@+id/lNameTXT" android:paddingLeft="5px" android:paddingRight="5px" android:textColor="#000000"></EditText>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:id="@+id/TableRow05" android:layout_height="wrap_content">
+                    <View android:layout_height="7px"></View>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TableRow02">
+                    <TextView android:id="@+id/TextView13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Username" android:textSize="22px" android:textColor="#000000"></TextView>
+                    <TextView android:id="@+id/TextView12" android:textColor="#6fb7e9" android:layout_width="wrap_content" android:text=" : " android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+                    <EditText android:layout_width="wrap_content" android:singleLine="true" android:layout_height="wrap_content" android:width="150px" android:id="@+id/uNameTXT" android:paddingRight="5px" android:paddingLeft="5px" android:textColor="#000000">
+                        <requestFocus></requestFocus>
+                    </EditText>
+                    <View android:layout_height="7px" android:layout_width="20px"></View>
+                    <TextView android:id="@+id/TextView10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Email Address" android:textSize="22px" android:textColor="#000000"></TextView>
+                    <TextView android:id="@+id/TextView11" android:textColor="#6fb7e9" android:layout_width="wrap_content" android:text=" : " android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+                    <EditText android:layout_width="wrap_content" android:singleLine="true" android:layout_height="wrap_content" android:width="150px" android:id="@+id/eAddTXT" android:paddingLeft="5px" android:paddingRight="5px" android:textColor="#000000"></EditText>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TableRow04">
+                    <View android:layout_height="7px"></View>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:id="@+id/TableRow03" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TextView07" android:textAppearance="?android:attr/textAppearanceMedium" android:text="New Password" android:textSize="22px" android:textColor="#000000"></TextView>
+                    <TextView android:textColor="#6fb7e9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TextView06" android:textAppearance="?android:attr/textAppearanceMedium" android:text=" : "></TextView>
+                    <EditText android:layout_width="wrap_content" android:inputType="textPassword" android:layout_height="wrap_content" android:width="150px" android:id="@+id/pWordTXT" android:paddingLeft="5px" android:paddingRight="5px" android:textColor="#000000"></EditText>
+                    <View android:layout_height="7px" android:layout_width="20px"></View>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TextView05" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Retype Password" android:textSize="22px" android:textColor="#000000"></TextView>
+                    <TextView android:textColor="#6fb7e9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TextView04" android:textAppearance="?android:attr/textAppearanceMedium" android:text=" : "></TextView>
+                    <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="textPassword" android:width="150px" android:id="@+id/rpWordTXT" android:paddingRight="5px" android:paddingLeft="5px" android:textColor="#000000"></EditText>
+                </TableRow>
+                <TableRow android:id="@+id/tableRow9" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <View android:layout_height="10px"></View>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:id="@+id/tableRow8" android:layout_height="wrap_content">
+                    <Button android:layout_width="wrap_content" android:layout_span="7" android:layout_height="wrap_content" android:id="@+id/LGNBTN" android:layout_gravity="right" android:text="Sign-Up" android:onClick="registerCheck" android:padding="7dp" android:textColor="#000000"></Button>
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+    
+</ScrollView>
