@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1" android:background="@drawable/interior" android:layout_gravity="center_horizontal" >
+    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableLayout1">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right" android:id="@+id/linearLayout4" android:weightSum="1">
+                <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout5" android:gravity="left" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_gravity="left" android:layout_weight="1.01">
+                    <Button android:background="@drawable/button_style" android:ellipsize="end" android:layout_gravity="left" android:id="@+id/shareButton" android:text="@string/share" android:onClick="inviteFriends" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+                </LinearLayout>
+                <ImageView android:layout_width="wrap_content" android:src="@drawable/greenarrow" android:id="@+id/arrow" android:layout_height="45dip"></ImageView>
+                <TextView android:id="@+id/counter" android:text="@string/numerical_100" android:gravity="right" android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20sp"></TextView>
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:layout_height="wrap_content" android:id="@+id/tableRow2" android:gravity="center" android:layout_width="wrap_content">
+            <LinearLayout android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="1">
+                <ImageView android:src="@drawable/m_000_000_00_000" android:id="@+id/fav_image" android:layout_height="265dp" android:layout_width="match_parent"></ImageView>
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:layout_height="wrap_content" android:id="@+id/tableRow3" android:gravity="center" android:layout_width="wrap_content">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:weightSum="1" android:gravity="center">
+                <Button android:background="@drawable/feedme_button" android:text="@string/feed_me" android:onClick="openTagCloud" android:id="@+id/button1" android:maxWidth="30dp" android:layout_width="142dp" android:layout_height="match_parent"></Button>
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/horizontalScrollView2">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout3">
+                    <View android:layout_width="10dp" android:layout_height="fill_parent" android:id="@+id/View13"></View>
+                    <ImageView android:layout_width="wrap_content" android:src="@drawable/a6" 
+                    	android:id="@+id/con_fav1" android:layout_height="wrap_content" 
+                    	android:onClick="loadProfile_m_green_med"></ImageView>
+                    <View android:layout_width="10dp" android:layout_height="fill_parent" android:id="@+id/View12"></View>
+                    <ImageView android:layout_width="wrap_content" android:src="@drawable/a1" 
+                    	android:id="@+id/con_fav2" android:layout_height="wrap_content" 
+                    	android:onClick="loadProfile_m_green_sma"></ImageView>
+                    <View android:layout_width="10dp" android:layout_height="fill_parent" android:id="@+id/View08"></View>
+                    <ImageView android:layout_width="wrap_content" android:src="@drawable/a2" 
+                    	android:id="@+id/con_fav3" android:layout_height="wrap_content" 
+                    	android:onClick="loadProfile_f_blue_sma"></ImageView>
+                    <View android:layout_width="10dp" android:layout_height="fill_parent" android:id="@+id/View09"></View>
+                    <ImageView android:layout_width="wrap_content" android:src="@drawable/a3" 
+                    	android:id="@+id/con_fav4" android:layout_height="wrap_content" 
+                    	android:onClick="loadProfile_f_pink_med"></ImageView>
+                    <View android:layout_width="10dp" android:layout_height="fill_parent" android:id="@+id/View10"></View>
+                    <ImageView android:layout_width="wrap_content" android:src="@drawable/a4" 
+                    	android:id="@+id/con_fav5" android:layout_height="wrap_content" 
+                    	android:onClick="loadProfile_m_blue_sma"></ImageView>
+                    <View android:layout_width="10dp" android:layout_height="fill_parent" android:id="@+id/View11"></View>
+                    <ImageView android:layout_width="wrap_content" android:src="@drawable/a5" 
+                    	android:id="@+id/con_fav6" android:layout_height="wrap_content" 
+                    	android:onClick="loadProfile_f_blue_lar"></ImageView>
+				</LinearLayout>
+            </HorizontalScrollView>
+        </TableRow>
+    </TableLayout>
+    
+</LinearLayout>
