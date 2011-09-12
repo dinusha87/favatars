@@ -788,7 +788,7 @@ public class FavatarsnewActivity extends Activity {
  			 if(matcherObj.matches()){
  			 //The input email address is valid
  		     //insert to db
- 				 if(isUsername(username)==true){
+ 				 if( isUsername(username) == true ){
  					 
  				 
  					 String action="register";
